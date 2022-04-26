@@ -2,7 +2,7 @@ const westra = require('discord.js')
 const westraclient = new westra.Client()
 const westraembed = new westra.MessageEmbed()
 .setColor("RANDOM")
-.setDescription(`Selam!\n **Wexy** Botu Ekleyerek Bize Destek Sağlayabilirsiniz.\nBotu Eklemek İçin [BURAYA](https://discord.com/oauth2/authorize?client_id=811238807692771348&scope=bot&permissions=8) Tıkla!`)
+.setDescription(`Selam!\n **Jarvıs** Botu Ekleyerek Bize Destek Sağlayabilirsiniz.\nBotu Eklemek İçin [BURAYA](https://discord.com/oauth2/authorize?client_id=966324540768657478&scope=bot&permissions=8) Tıkla!`)
 exports.run = async (westraclient, message, args) => {
 	message.channel.send(westraembed)
 };

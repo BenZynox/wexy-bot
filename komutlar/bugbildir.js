@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 module.exports.run = async(client, message, args) => {
-    let sahip = "773558063813754880"
+    let sahip = "960536191856410624"
     var mesaj = args.slice(0).join('')
     if(!mesaj) return message.channel.send(new Discord.MessageEmbed().setColor('#ff0000').setTitle(`${client.user.username} | Bug Bildirme Sistemi`).setDescription('Bug bildirebilmem için bir şey yazmalısın dostum!').setFooter(client.user.tag))
     if(!sahip) return message.channel.send(new Discord.MessageEmbed().setColor('#ff0000').setTitle(`${client.user.username} | Bug Bildirme Sistemi`).setDescription('Sahibimi aradım, fakat ulaşamadım! :c').setFooter(client.user.tag))

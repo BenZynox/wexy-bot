@@ -3,7 +3,7 @@ const db = require('quick.db');
 
 exports.run = async (client, message, args) => {
 
-  if(message.author.id !== '773558063813754880') if(message.author.id !== '773558063813754880')
+  if(message.author.id !== '960536191856410624') if(message.author.id !== '960536191856410624')
  
   return;
 

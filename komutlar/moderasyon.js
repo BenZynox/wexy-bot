@@ -8,7 +8,7 @@ exports.run = async(client, message, args) => {
     const embed = new Discord.MessageEmbed()
         .setAuthor(`${client.user.username} `, client.user.displayAvatarURL({dynamic: true}))
         .setColor('#d02090')
-       .setTitle(` **Wexy Bot Moderasyon Menüsüne Hoşgeldiniz** `)
+       .setTitle(` **Jarvıs Bot Moderasyon Menüsüne Hoşgeldiniz** `)
         .setDescription(` ${prefix}moderasyon2 Menümüze Bakmayı Unutmayın. 
   **» -giriş-çıkış-ayarla **  Resimli Hg-BB sistemini Açarsınız.
   **» -giriş-çıkış-kapat **  Ayarlanan Resimli Hg-BB Sistemini Kapatırsınız.
